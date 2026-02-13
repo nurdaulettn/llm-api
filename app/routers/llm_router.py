@@ -31,7 +31,7 @@ async def generate(request: LLMRequest):
 
 @router.get("/health", status_code=status.HTTP_200_OK)
 async def health_check():
-    api_key_present = bool(os.getenv("OPENAI_API_KEY"))
+    api_key_present = bool(os.getenv("GEMINI_API_KEY"))
 
     return {
         "status": "healthy" if api_key_present else "degraded",
