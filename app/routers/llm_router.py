@@ -1,23 +1,23 @@
 import os
-
-from fastapi import APIRouter
-from starlette import status
-
-from app.schemas.llm_schema import LLMRequest, LLMResponse
-from app.services.llm_service import ask_llm
-from fastapi import HTTPException
-router = APIRouter(tags=["LLM"])
-
-
 import logging
 
+from fastapi import APIRouter, HTTPException
+from starlette import status
+
+from app.schemas.llm_schema import LLMRequest, LLMResponse, HealthResponse
+from app.services.llm_service import ask_llm
+router = APIRouter(tags=["LLM"])
 logger = logging.getLogger(__name__)
 
-@router.post("/generate", response_model=LLMResponse)
+
+@router.post(
+    "/generate",
+    response_model=LLMResponse,
+    summary="Generate answer using LLM",
+)
 async def generate(request: LLMRequest):
     try:
-        response = await ask_llm(request)
-        return response
+        return await ask_llm(request)
 
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -29,12 +29,17 @@ async def generate(request: LLMRequest):
         )
 
 
-@router.get("/health", status_code=status.HTTP_200_OK)
+@router.get(
+    "/health",
+    response_model=HealthResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Health check"
+)
 async def health_check():
     api_key_present = bool(os.getenv("GEMINI_API_KEY"))
 
-    return {
-        "status": "healthy" if api_key_present else "degraded",
-        "service": "LLM API",
-        "api_key_configured": api_key_present
-    }
+    return HealthResponse(
+        status="healthy" if api_key_present else "degraded",
+        service="LLM API",
+        api_key_configured=api_key_present
+    )
