@@ -46,8 +46,15 @@ async def generate(request: LLMRequest):
 async def health_check():
     api_key_present = bool(os.getenv("GEMINI_API_KEY"))
 
+    if api_key_present:
+        status_text = "healthy"
+        logger.info(f"Health check performed. Status: {status_text}, API key configured: {api_key_present}")
+    else:
+        status_text = "degraded"
+        logger.error(f"Health check performed. Status: {status_text}, API key configured: {api_key_present}")
+
     return HealthResponse(
-        status="healthy" if api_key_present else "degraded",
+        status=status_text,
         service="LLM API",
         api_key_configured=api_key_present
     )
