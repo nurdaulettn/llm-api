@@ -1,0 +1,201 @@
+{"@timestamp": "2026-02-17T14:49:09.635174+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:49:09.635359+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:49:09.763655+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:49:09.763748+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:49:09.763928+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T14:49:10.348738+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:49:10.348912+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T14:52:51.575292+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:52:51.575732+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:52:51.717826+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:52:51.717903+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:52:51.718026+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T14:52:52.186388+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:52:52.186678+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T14:53:12.623323+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:53:12.625799+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T14:53:13.004550+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:53:13.004849+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T14:53:19.523752+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:53:19.524233+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T14:53:19.686963+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T14:53:19.687262+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T14:54:47.710486+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:54:47.711320+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:54:48.132568+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:54:48.133328+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:54:48.133921+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:54:48.666627+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:54:48.667559+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:55:11.750611+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:11.754155+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:55:12.154797+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:12.154981+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:55:20.439387+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:20.440339+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:55:20.661864+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:20.662023+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:55:30.026191+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:30.026887+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:55:30.182852+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:30.183074+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:55:57.180871+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:57.181995+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:55:57.590495+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:55:57.590690+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:57:55.438592+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:57:55.440351+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:57:55.614022+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:57:55.614124+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:57:55.614291+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:57:56.138967+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:57:56.139126+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T14:58:08.392794+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:58:08.394508+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+
+{"@timestamp": "2026-02-17T14:58:08.604929+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+
+{"@timestamp": "2026-02-17T14:58:08.605146+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+
+{"@timestamp": "2026-02-17T15:02:36.433842+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:36.437412+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:36.691006+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:36.691107+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:36.691287+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:02:37.294430+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:37.294959+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:02:38.334099+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:38.334570+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:02:39.560082+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:39.560287+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:02:54.194800+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:54.196014+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:02:54.363791+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:02:54.363991+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:09:22.498726+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:22.499133+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:22.640427+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:22.640700+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:22.641980+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:09:23.310883+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:23.311056+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:09:29.659201+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:29.660163+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:09:29.820091+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:09:29.820437+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:11:59.378470+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:11:59.378892+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:11:59.525597+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:11:59.525745+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:11:59.525885+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:12:00.057638+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:12:00.057838+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:12:06.296400+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:12:06.300381+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:12:06.476612+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:12:06.476809+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:15:10.741043+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:15:10.742051+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:15:11.264845+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:15:11.265821+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:18:38.066742+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:18:38.073541+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:18:38.770941+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:18:38.771661+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:19:46.618724+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:19:46.622088+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:19:47.222106+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:19:47.222398+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:23:25.447233+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:25.448037+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:25.704858+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:25.704961+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:25.705120+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:23:26.545902+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:26.546103+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:23:39.577420+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:39.578748+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:23:39.871831+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:23:39.872157+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:26:23.155081+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:23.155469+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:23.287204+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:23.287297+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:23.287469+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:26:33.317075+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:33.318974+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:26:36.296260+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x108caa2a0> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:26:36.343387+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:36.343519+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:26:40.333332+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x108caa2a0> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:26:40.381469+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:40.381612+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:26:43.352090+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:43.352980+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:26:45.367904+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x108caa7b0> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:26:45.409893+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:45.410003+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:26:46.661281+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:46.661806+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:26:49.676047+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x108cab140> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:26:49.723092+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:26:49.723242+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:32:50.501692+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:32:50.503275+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:32:50.722339+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:32:50.722424+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:32:50.722816+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:32:57.735960+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x10857a2a0> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:32:57.790483+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:32:57.790615+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-17T15:33:54.471189+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:33:54.475081+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-17T15:34:03.591952+00:00", "level": "INFO", "message": "Retrying due to aiohttp error: Cannot connect to host generativelanguage.googleapis.com:443 ssl:<ssl.SSLContext object at 0x10848e570> [nodename nor servname provided, or not known]", "logger": "google_genai._api_client"}
+{"@timestamp": "2026-02-17T15:34:03.921199+00:00", "level": "ERROR", "message": "Gemini API error", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-17T15:34:03.925226+00:00", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router"}
+{"@timestamp": "2026-02-18T13:13:52.495173+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:13:52.496995+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:13:53.029043+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:13:53.029281+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:13:53.029890+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-18T13:13:56.583028+00:00", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:15.771305+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:15.776802+00:00", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:16.402585+00:00", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:16.402703+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:16.402915+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-18T13:27:23.098534+00:00", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:29.927656+00:00", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service"}
+{"@timestamp": "2026-02-18T13:27:29.929858+00:00", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models"}
+{"@timestamp": "2026-02-18T13:27:35.167160+00:00", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service"}

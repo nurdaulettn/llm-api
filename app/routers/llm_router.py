@@ -1,13 +1,18 @@
 import os
 import logging
+from datetime import datetime
 
 from fastapi import APIRouter, HTTPException
 from starlette import status
 
+from app.logging.logging_config import setup_logging
 from app.schemas.llm_schema import LLMRequest, LLMResponse, HealthResponse
 from app.services.llm_service import ask_llm
 router = APIRouter(tags=["LLM"])
+
 logger = logging.getLogger(__name__)
+
+
 
 
 @router.post(
@@ -22,7 +27,10 @@ async def generate(request: LLMRequest):
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception:
-        logger.exception("LLM generation failed")
+        logger.exception("LLM generation failed", extra={
+            "@timestamp": datetime.utcnow().isoformat() + "Z"
+        })
+        setup_logging()
         raise HTTPException(
             status_code=500,
             detail="LLM service temporarily unavailable"
