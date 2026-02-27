@@ -265,3 +265,58 @@
 {"@timestamp": "2026-02-19T15:25:12Z", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service", "service": "fastapi-llm"}
 {"@timestamp": "2026-02-19T15:37:39Z", "level": "INFO", "message": "Health check performed. Status: healthy, API key configured: True", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
 {"@timestamp": "2026-02-19T15:40:20Z", "level": "INFO", "message": "Health check performed. Status: healthy, API key configured: True", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-20T12:19:29Z", "level": "INFO", "message": "Health check performed. Status: healthy, API key configured: True", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:09Z", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:10Z", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:10Z", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:10Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:20Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 200 OK\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:20Z", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:09:59Z", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flas:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:00Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "ERROR", "message": "All Gemini models failed", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:10:01Z", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:02Z", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flashsldjf:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent \"HTTP/1.1 429 Too Many Requests\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "ERROR", "message": "All Gemini models failed", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:13:04Z", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:36Z", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flashsldjf:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "ERROR", "message": "All Gemini models failed", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:14:37Z", "level": "ERROR", "message": "LLM generation failed", "logger": "app.routers.llm_router", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:53Z", "level": "INFO", "message": "Initializing Gemini client", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:54Z", "level": "INFO", "message": "Gemini client initialized successfully", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:54Z", "level": "INFO", "message": "LLM request started", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:54Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:55Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent \"HTTP/1.1 404 Not Found\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:55Z", "level": "WARNING", "message": "Gemini model failed, trying next (if any)", "logger": "app.services.llm_service", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:18:55Z", "level": "INFO", "message": "AFC is enabled with max remote calls: 10.", "logger": "google_genai.models", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:19:04Z", "level": "INFO", "message": "HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent \"HTTP/1.1 200 OK\"", "logger": "httpx", "service": "fastapi-llm"}
+{"@timestamp": "2026-02-27T16:19:04Z", "level": "INFO", "message": "LLM request finished", "logger": "app.services.llm_service", "service": "fastapi-llm"}
